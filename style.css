@@ -144,8 +144,17 @@ img{
     margin: auto;
     max-width: 1000px;
     min-width: 300px;
-   
+    
 }
+
+img.imagem1{
+    min-width: 30px;
+    
+}
+
+
+    
+
 
 iframe{
     position: absolute;
@@ -224,3 +233,4 @@ section > div > ul {
     list-style-type: '\2714\00A0\00A0';
     columns: 2;
 }
+
