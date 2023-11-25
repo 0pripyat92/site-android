@@ -90,30 +90,28 @@ main h3 {
     padding: 3px;
     text-indent: 5px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.13);
-
 }
+
 nav{
     background-color: var(--cor5);
     color: aliceblue;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
-    text-align: left;
-    
+    text-align: left; 
 }
 
 nav > a {
-color: white;
-padding: 10px;
-text-decoration: none;
-font-weight: bold;
-
+    color: white;   
+    padding: 9px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav > a:hover {
     background-color: var(--cor2);
     color: var(--cor4);
-    border-radius: 10px;
-    transition-duration: 0.75s;
+    border-radius: 15px;
+    transition-duration: 0s;
 }
 
 main{
@@ -146,13 +144,11 @@ img{
     display: block;
     margin: auto;
     max-width: 100%;
-    min-width: 300px;
-    
+    min-width: 300px; 
 }
 
 img.imagem1{
     min-width: 30px;
-    
 }
 
 iframe{
@@ -164,15 +160,14 @@ iframe{
 }
 
 .video{
-background-color: #063d1e;
-margin: 0px 0px 30px 0px;
-padding: 20px;
-padding-bottom: 55.1%;
-position: relative;
-background-image: linear-gradient(to right, var(--cor4), var(--cor3), var(--cor1));
-border-radius: 10px;
-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.274);
-
+    background-color: #063d1e;
+    margin: 0px 0px 30px 0px;
+    padding: 20px;
+    padding-bottom: 55.1%;
+    position: relative;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor3), var(--cor1));
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.274);
 }
 
 p{
@@ -186,7 +181,6 @@ main strong{
     color: var(--cor3);
     padding: 2px 6px;
     font-weight: bold;
-    
 }
 
 a{
@@ -209,8 +203,8 @@ footer {
 }
 
 footer :hover{
-text-decoration: underline;
-color: var(--cor2);
+    text-decoration: underline;
+    color: var(--cor2);
 }
 
 main a:hover {
